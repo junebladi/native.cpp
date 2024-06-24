@@ -1,6 +1,6 @@
-getgenv().native = {  
-    ['Loader'] = {
-       ["Key"] = "",   
+getgenv().native = {   
+    ['Loader'] = {   
+       ["Key"] = "", -- // Key here   
         ["Intro"] = {
             ["Enabled"] = true
      },
@@ -40,9 +40,13 @@ getgenv().native = {
         ["Degrees"] = 360, -- // Leave at 360 for a full circle
     },
     ['Visuals'] = {
-        ['DistanceESP'] = true,
+        ['DistanceESP'] = false,
         ['WeaponESP'] = true,   
-        ['HealthBar'] = true,
+        ['HealthBar'] = false,
         ['NameESP'] = true,
     },
 }
+
+
+script_key = getgenv().native.Whitelist.key --// DO NOT FUCKING TOUCH THIS SHIT
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e5c39b1bb7ed52d027ddd97ff8f477b1.lua"))() --// credits to bel for making things a bit more simple
