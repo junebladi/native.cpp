@@ -48,5 +48,5 @@ getgenv().native = {
 }
 
 
-script_key = getgenv().native.Whitelist.key --// DO NOT FUCKING TOUCH THIS SHIT
+getgenv().native.Loader.key = script_key --// DO NOT FUCKING TOUCH THIS 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e5c39b1bb7ed52d027ddd97ff8f477b1.lua"))() --// credits to bel for making things a bit more simple
