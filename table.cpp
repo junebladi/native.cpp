@@ -50,4 +50,4 @@ getgenv().native = {
 }
 
 
-script_key = getgenv().native.Loader.Key
+script_key = getgenv().native.Loader.Key --// do not touch fat kid
