@@ -2,7 +2,7 @@
  
 getgenv().native = {
     ['Loader'] = {
-       ["Key"] = "jUjYeWZLGQeQJZHLdYnwXxrMigwcaJBH",
+       ["Key"] = "keyhere",
         ["Intro"] = {
             ["Enabled"] = true
      },
@@ -51,3 +51,4 @@ getgenv().native = {
 
 
 script_key = getgenv().native.Loader.Key --// do not touch fat kid
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e5c39b1bb7ed52d027ddd97ff8f477b1.lua"))()
